@@ -11,3 +11,4 @@ This script doesn't remove comments from others.
 3. In the console, type allow pasting and press Enter.
 4. Scroll down to load as many of your comments as possible. Keep scrolling until no more comments load.
 5. Paste the provided script into the console and press Enter to run it.
+6. Script will iterate through the content and delete them one by one.
