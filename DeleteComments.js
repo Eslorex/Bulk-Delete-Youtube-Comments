@@ -24,9 +24,9 @@
   async function processOne(btn) {
     seen.add(btn);
     btn.click();
-    await wait(800);
+    await wait(2500);
     clickConfirmIfPresent();
-    await wait(800);
+    await wait(2500);
   }
 
   async function mainLoop() {
@@ -35,7 +35,7 @@
       for (const btn of batch) {
         await processOne(btn);
       }
-      await wait(700);
+      await wait(2500);
     }
   }
 
